@@ -1,0 +1,51 @@
+html{
+	position: relative;
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins';
+}
+
+.slider h3 {
+text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+
+}
+.slider h5{
+text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+
+}
+
+.Destination{
+text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+
+}
+
+
+section {
+	padding: 20px 0;
+}
+
+hr {
+	width: 500px;
+	border-top: 1px solid #999;
+}
+
+.tittle::before {
+	content: url(img/jadi/1.jpg) " ";
+}
+
+nav.white ul li a{
+    color: #333333;
+}
+
+nav.white ul li a.active{
+    color: #fff;
+    background-color: #333;
+}
+
+nav.white ul li a:hover{
+    color: #fff;
+}
